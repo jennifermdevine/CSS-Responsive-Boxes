@@ -1,3 +1,44 @@
+* {
+  border: 1px solid red;
+}
+
 body {
   background: papayawhip;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  }
+
+.a, .b, .c, .d, .e, .f {
+  background-color: orange;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.a, .f {
+  display: flex;
+  flex: .50;
+}
+
+.b {
+  display: flex;
+  flex: 2;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+}
+
+.c, .d, .e {
+  display: inline;
+  width: 33%;
+  height: 250px;
 }
