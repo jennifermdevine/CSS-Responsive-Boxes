@@ -13,6 +13,13 @@ body {
   justify-content: space-between;
   gap: 15px;
 }
+
+.a, .b, .c, .d, .e, .f, .g, .h {
+  background-color: orange;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .a {
   display: flex;
   flex: .50;
@@ -34,4 +41,25 @@ body {
 .h {
   display: flex;
   flex: 3
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .a {
+    flex: 5;
+    flex-basis: 100%;
+    }
+
+    .row1, .row2 {
+      flex: 3;
+      flex-wrap: wrap;
+    }
+
+    .h {
+
+    }
 }
