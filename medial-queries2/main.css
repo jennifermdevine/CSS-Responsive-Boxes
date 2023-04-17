@@ -42,3 +42,26 @@ body {
   width: 33%;
   height: 250px;
 }
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .a {
+   flex-basis: 100%;
+  }
+  
+  .b {
+    flex: 2;
+  }
+
+  .c, .d, .e, {
+    flex: .25;
+  }
+
+  .f {
+    
+  }
+}

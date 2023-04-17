@@ -1,3 +1,37 @@
 body {
   background: peachpuff;
 }
+
+* {
+  border: 1px solid red;
+  
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.a {
+  display: flex;
+  flex: .50;
+}
+
+.row1, .row2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  text-align: center;
+}
+
+.b, .c, .d, .e, .f, .g {
+  display: inline;
+  width: 33%;
+  height: 250px;
+}
+
+.h {
+  display: flex;
+  flex: 3
+}
