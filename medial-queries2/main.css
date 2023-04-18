@@ -58,20 +58,20 @@ body {
     flex-basis: 100%;
   }
   
-  .b {
+  .brow {
     flex-basis: 100%;
-    flex: 2;
     max-width: 70%;
   }
-
+  
+  
   .row {
     display: flex;
     width: 100%;
     max-width: 70%;
   }
-
-  .f {
-    flex-direction: column;
-    flex-shrink: 3;
+  .fcolumn {
+    width: 25%;
   }
+
+
 }

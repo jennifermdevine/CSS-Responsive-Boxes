@@ -45,6 +45,7 @@ body {
 
 @media (min-width: 1024px) {
   .container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -56,10 +57,9 @@ body {
 
     .row1, .row2 {
       flex: 3;
-      flex-wrap: wrap;
-    }
+      }
 
     .h {
-
+      width: 20%;
     }
 }
