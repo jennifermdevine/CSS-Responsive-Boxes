@@ -56,8 +56,8 @@ body {
     }
 
     .row1, .row2 {
-      flex: 3;
-      }
+      flex: 4;
+    }
 
     .h {
       width: 20%;
